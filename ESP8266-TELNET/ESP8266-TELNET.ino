@@ -22,7 +22,7 @@ void initWiFi()
   {
     Serial.print('.');
     delay(1000);
-    // Restart the ESP32 after 10s  has passed until WiFi is connected
+    // Restart the ESP8266 after 10s  has passed until WiFi is connected
     if (millis() - lastTime >= 20000)
     {
       ESP.restart();
